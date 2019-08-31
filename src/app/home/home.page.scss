@@ -3,6 +3,10 @@ ion-card{
   --color: #fff;
 }
 
+ion-card-subtitle{
+  color: rgb(255, 178, 143);
+}
+
 @media(min-width:900px) and (min-height:900px){
   ion-card{
     display: flex;
