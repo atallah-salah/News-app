@@ -2,3 +2,23 @@ ion-card{
   --background: #021b46;
   --color: #fff;
 }
+
+@media(min-width:900px) and (min-height:900px){
+  ion-card{
+    display: flex;
+  }
+  
+  ion-card-subtitle {
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  ion-card-content{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  ion-img{
+    max-width: 200px;
+  }
+}
